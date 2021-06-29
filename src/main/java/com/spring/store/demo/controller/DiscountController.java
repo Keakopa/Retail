@@ -12,7 +12,7 @@ import javax.validation.Valid;
 import java.math.BigDecimal;
 
 @RestController
-@RequestMapping("api/v1/discounts")
+@RequestMapping("api/k2/discounts")
 public class DiscountController {
 
     @Autowired
