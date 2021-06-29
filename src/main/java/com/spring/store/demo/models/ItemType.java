@@ -1,7 +1,7 @@
 package com.spring.store.demo.models;
 
 public enum ItemType {
-    HOUSEHOLD,
+    FURNITURE,
     ELECTRONICS,
     GROCERIES,
     OTHERS
