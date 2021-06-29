@@ -2,8 +2,8 @@ package com.spring.store.demo.models;
 
 import java.util.List;
 
-import lombok.Getter;
-import lombok.Setter;
+import shop.Getter;
+import shop.Setter;
 
 @Getter
 @Setter
