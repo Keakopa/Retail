@@ -42,11 +42,11 @@ public class DiscountTest {
     @Test
     public void testCalculateTotalMix() {
         List<Item> items = new ArrayList<Item>();
-        items.add(new Item(ItemType.CLOTHES, new BigDecimal(100.0)));
+        items.add(new Item(ItemType.FURNITURE, new BigDecimal(100.0)));
         items.add(new Item(ItemType.OTHER, new BigDecimal(100.0)));
-        items.add(new Item(ItemType.TECHNOLOGY, new BigDecimal(100.0)));
-        items.add(new Item(ItemType.GROCERY, new BigDecimal(100.0)));
-        items.add(new Item(ItemType.GROCERY, new BigDecimal(100.0)));
+        items.add(new Item(ItemType.ELECTRONICS, new BigDecimal(100.0)));
+        items.add(new Item(ItemType.GROCERIES, new BigDecimal(100.0)));
+        items.add(new Item(ItemType.GROCERIES, new BigDecimal(100.0)));
 
         DiscountHelper helper = new DiscountHelper();
         BigDecimal total = helper.calculateTotalPerType(items, ItemType.GROCERY);
