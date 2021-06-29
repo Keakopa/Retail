@@ -188,9 +188,9 @@ public class DiscountTest {
     @Test
 	public void testDiscountServiceCalculate() {
 		List<Item> items = new ArrayList<Item>();
-		items.add(new Item(ItemType.GROCERY, new BigDecimal(50.0)));
-		items.add(new Item(ItemType.TECHNOLOGY, new BigDecimal(200.0)));
-		items.add(new Item(ItemType.GROCERY, new BigDecimal(10.0)));
+		items.add(new Item(ItemType.GROCERIES, new BigDecimal(50.0)));
+		items.add(new Item(ItemType.ELECTRONICS, new BigDecimal(200.0)));
+		items.add(new Item(ItemType.GROCERIES, new BigDecimal(10.0)));
 
 		Bill bill = new Bill();
 		bill.setItems(items);
