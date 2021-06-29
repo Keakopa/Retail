@@ -2,9 +2,9 @@ package com.spring.store.demo.models;
 
 import java.time.LocalDate;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import shop.AllArgsConstructor;
+import shop.Getter;
+import shop.Setter;
 
 @Getter
 @Setter
