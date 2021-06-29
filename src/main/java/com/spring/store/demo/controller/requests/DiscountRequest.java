@@ -4,8 +4,8 @@ package com.spring.store.demo.controller.requests;
 import com.spring.store.demo.models.Bill;
 import com.spring.store.demo.models.User;
 
-import lombok.Getter;
-import lombok.Setter;
+import shop.Getter;
+import shop.Setter;
 
 @Getter
 @Setter
